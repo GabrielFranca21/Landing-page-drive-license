@@ -1,0 +1,98 @@
+#exp{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background:url("../img/diferencias.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 1200px;
+  
+}
+
+.experi{
+    padding: 4.5em;
+    width: 750px;
+    margin: 0 auto;
+    gap: 5%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 11px;
+}
+.experi2{
+    padding: 4em;
+    width: 720px;
+    margin: 0 auto;
+    gap: 5%;
+}
+
+.eumrm{
+    flex: 1; /* Ocupar o espaço restante */
+    margin-right: 20px; /* Adicionar um espaço à direita para separar do botão */
+    color: #1A1826;
+    font-size: medium;
+    width: 100%;
+}
+.eumrm h2{
+    margin-bottom: 0.6em;
+    font-size: 2em;
+    color: #0062B8;
+}
+.eumrm p{
+    margin-bottom: 1em;
+    font-size: 1.4em;
+    color: #20486B;
+}
+
+.eumrm{
+    color: #1A1826;
+    font-size: medium;
+    width: 100%;
+}
+.eumrm span{
+    font-weight: bold;
+    color: #2450A6;
+}
+  
+@media (max-width: 768px) {
+  #exp {
+      height: auto; /* Altura automática para se ajustar ao conteúdo */
+      background:url("../img/celular.jpg");
+      background-position:top center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 1250px;
+  }
+
+  .experi {
+      width: 100%; /* Largura de 100% para ocupar toda a largura do dispositivo */
+      padding: 2em; /* Reduza o preenchimento para telas menores */ /* Faça a largura ocupar 100% da tela */
+      margin-top: 10px; /* Reduza o espaço superior */
+      background: none;
+      border-radius: none;
+      box-shadow: none ;
+      backdrop-filter: none;
+      -webkit-backdrop-filter:none;
+      border: none;
+      flex-direction: column; /* Empilhe os elementos verticalmente */
+      text-align: center; /* Alinhe o texto centralmente */
+      padding-top:410px ;
+    }
+
+  .experi2 {
+      width: 100%; /* Largura de 100% para ocupar toda a largura do dispositivo */
+      padding: 2em; /* Reduza o preenchimento para telas menores */
+      display: none;
+  }
+  .eumrm h2{
+    font-size: 28px;
+  }
+  .eumrm p{
+    font-size: 18px;
+  }
+}

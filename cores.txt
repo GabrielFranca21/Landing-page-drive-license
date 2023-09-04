@@ -1,0 +1,7 @@
+#ededed branco  
+
+#20486B azul escuro
+#0062B8 azul escurinho
+#007DEB azul medio
+#008AFF azul claro
+#47A0EE azul clarinho

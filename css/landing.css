@@ -1,0 +1,94 @@
+.landing-section {
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Alinhar verticalmente o conteúdo */
+    text-align: center;
+    margin-bottom: 50px;    
+    
+}
+
+/* Estilos para o texto dentro da seção */
+.text-content {
+    flex: 1; /* Ocupa o espaço restante na largura da seção */
+    padding: 20px; /* Espaçamento entre o texto e a imagem */
+    text-align: justify;
+}
+
+.text-content p,li{
+    font-size: 16px;
+    line-height: 1.0;
+    letter-spacing: 0.5px; /* Espaçamento entre as letras */
+    margin-bottom: 10px; /* Espaço entre os parágrafos (P) */
+    color:  #20486B;
+    text-align: center;
+}
+
+.text-content h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    letter-spacing: 1px; /* Espaçamento entre as letras */
+    margin-bottom: 10px; /* Espaço entre o título e os parágrafos (P) */
+
+}
+
+.text-content h2 {
+    font-size: 28px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;/* Espaçamento entre as letras */
+}
+
+/* Estilos para a imagem */
+.image {
+    flex: 1; /* Ocupa o espaço restante na largura da seção */
+    text-align: center; /* Alinhar a imagem ao centro horizontalmente */
+}
+
+.image img {
+    width: 640px; /* Define o tamanho da imagem */
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 40px;
+    -webkit-border-bottom-right-radius: 50px;
+    -webkit-border-bottom-left-radius: 50px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 40px;
+    -moz-border-radius-bottomright: 50px;
+    -moz-border-radius-bottomleft: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    -webkit-box-shadow: 5px 5px 10px 5px #000000; 
+    box-shadow: 5px 5px 10px 5px #00a2ff;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da sua seção */
+}
+
+.text-content h2,.text-content h1 {
+    text-transform: uppercase;
+    color: #007DEB;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .landing-section {
+        margin-bottom: 2px; /* Reduza a margem inferior para dispositivos móveis */
+        display: flex;
+        flex-direction: column; /* Empilhe os elementos verticalmente */
+        text-align: center; /* Alinhe o texto centralmente */
+        padding: 3em;
+        margin-top: -130px;
+    }
+
+    .text-content h1 {
+        font-size: 24px; /* Reduza ainda mais o tamanho do título para dispositivos móveis */
+        text-align: center; /* Alinhe o texto centralmente */
+    }
+
+    .text-content h2 {
+        font-size: 22px; /* Reduza ainda mais o tamanho do subtítulo para dispositivos móveis */
+        text-align: center; /* Alinhe o texto centralmente */
+    }
+    .text-content p{
+        text-align: center; /* Alinhe o texto centralmente */
+
+    }
+}

@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.aboutme{
+    padding: 4em;
+    width: 650px;
+    margin: 0 auto;
+    gap: 5%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 160px;
+}
+.aboutme2{
+    padding: 4em;
+    width: 720px;
+    margin: 0 auto;
+    gap: 5%;
+}
+
+.soueu{
+    flex: 1; /* Ocupar o espaço restante */
+    margin-right: 20px; /* Adicionar um espaço à direita para separar do botão */
+
+    color: #1A1826;
+    font-size: medium;
+    width: 100%;
+}
+.soueu h2{
+    margin-bottom: 0.6em;
+    font-size: 2em;
+    color: #0062B8;
+}
+.soueu p{
+    margin-bottom: 1em;
+    font-size: 1.4em;
+    color: #20486B;
+}
+.aboutme img{
+  width: 100vw;
+}
+@media (max-width: 767px) {
+    .aboutme, .aboutme2 {
+        width: 100%; /* Faça a largura ocupar 100% da tela */
+        padding: 2em; /* Reduza o espaçamento */
+        margin-top: 10px; /* Reduza o espaço superior */
+        background: none;
+        border-radius: none;
+        box-shadow: none ;
+        backdrop-filter: none;
+        -webkit-backdrop-filter:none;
+        border: none;
+        padding-top:300px ;
+    }
+
+    .soueu {
+        margin-right: 0; /* Remova o espaço à direita */
+    }
+    
+    .aboutme2 {
+        width: 100%; /* Faça a largura ocupar 100% da tela */
+    }
+
+    .aboutme img {
+        width: 100%; /* Faça a imagem ocupar a largura total */
+    }
+    .soueu h2{
+        font-size: 27px;
+        color: #20486B;
+    }
+    .soueu p{
+        color:#1A1826;;
+    }
+}
+
+/* Estilos para telas maiores, como tablets */
+@media (min-width: 768px) {
+    .aboutme {
+        width: 650px; /* Restaure a largura original para tablets */
+    }
+
+    .aboutme2 {
+        width: 720px; /* Restaure a largura original para tablets */
+    }
+}

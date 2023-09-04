@@ -1,0 +1,78 @@
+#key-benefits{
+    background:url("../img/");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 100px;
+}
+#key-benefits h2{
+    background-color: #2190ec;
+    text-align: center;
+    padding: 1em;
+    font-weight: 500;
+    color: #ededed;
+    background-position: center;
+    background-size: cover;
+    font-size: 30px;
+  }
+  .benefits{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items: center;
+    padding: 2em;
+    width: 100%;
+    margin: 0 auto;
+    padding: 4em;
+    width: 100%;
+    align-items: flex-start;
+    gap: 50px;
+  }
+  .benefit p{
+    font-weight: bolder;
+    color: #20486B;
+    margin-top: 015px;
+    text-transform: uppercase;
+    
+}
+  .benefit{
+    text-align: center;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    color: #0062B8;
+    font-weight: bold;
+  }
+  
+  .benefit .benefit-img{
+    width: 300px;
+    height: 290px;
+    border-radius: 10%;
+    background-size: cover;
+    background-position: center;
+    gap: 350px;
+    
+  }
+  
+  #benefit-1{
+    background-image: url(../img/g1.jpg);
+    box-shadow: 5px 5px 0px #2190ec; /* 10px de deslocamento direita e 10px de deslocamento inferior, sem blur */
+  }
+  
+  #benefit-2{
+    background-image: url(../img/aluguelcarro.jpg);
+    box-shadow: 5px 5px 0px #2190ec;
+  }
+  
+  #benefit-3{
+    background-image: url(../img/aulas.jpg);
+    box-shadow: 5px 5px 0px #2190ec;
+  }
+  #benefit-4{
+    background-image: url(../img/Suporte.jpg);
+    box-shadow: 5px 5px 0px #2190ec;
+  }
+  /* Mantenha as regras CSS anteriores */
+  
+  /* Media queries para telas menores (tablets e dispositivos móveis) */

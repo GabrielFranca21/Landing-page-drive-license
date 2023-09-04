@@ -1,0 +1,103 @@
+h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Adicione esta linha para incluir bordas e preenchimentos no tamanho total do elemento */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap; /* Adicione flex-wrap para controlar a quebra de linha em tamanhos menores */
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start; /* Alinhe a imagem verticalmente */
+
+}
+
+.logo img {
+    max-width: 250px;
+    height: auto; /* Mantenha a proporção da imagem */
+    margin-right: 140px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0; /* Remova a margem para espaçamento consistente */
+    padding: 0;
+    margin-left: 100px;
+    margin-top: 9px;
+}
+
+nav li {
+    margin-left: 20px;
+    font-size: 21px;
+    transition: 1.3s;
+}
+nav .textoli{
+    margin-top: 10px;
+}
+nav li:hover {
+    transform: scale(1.1);
+
+}
+nav a {
+    text-decoration: none;
+    color: #0062B8;
+    font-weight: bold;
+}
+
+.br,.en{
+        padding-top:4px;
+        width: 40px;
+}
+
+/* Adicione esta regra de mídia para telas menores, como smartphones */
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        flex-direction: column; /* Coloque os elementos em coluna */
+        align-items: center;
+        text-align: center;
+        padding: 0.5em;
+    }
+
+    .logo {
+        align-items: center; /* Centralize verticalmente */
+        margin-right: 0; /* Remova a margem à direita */
+    }
+
+    .logo img {
+        max-width: 200px; /* Reduza o tamanho da imagem */
+        margin-right: 0; /* Remova a margem à direita */
+        margin-bottom: 10px; /* Reduza a margem inferior */
+        display: none;
+    }
+
+    nav {
+        margin-top: 10px; /* Aumente a margem superior */
+    }
+
+    nav ul {
+        margin-left: 0; /* Remova a margem à esquerda */
+        margin-top: 0; /* Remova a margem superior */
+        gap: 10px;
+    }
+
+    nav li {
+        margin-left: 7px; /* Reduza a margem à esquerda */
+        font-size: 16px; /* Reduza o tamanho da fonte */
+    }
+}

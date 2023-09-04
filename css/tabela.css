@@ -1,0 +1,91 @@
+#servicos{
+    width: 100%;
+    margin: 0 auto;
+}
+.tudo{
+    background :linear-gradient(to bottom,#0062B8,#007DEB);
+}
+.outrosservicos{
+
+    display: flexbox;
+    justify-content: space-between;
+    padding: 4em;
+    width: 100%;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.outrosservicos h2{
+    margin-bottom: 15px;
+    color: #ededed;
+}
+#servicos h1{
+    text-align: center;
+    padding: 1em;
+    font-weight: 500;
+    color: #ededed;
+    background-position: center;
+    background-size: cover;
+    font-size: 30px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #ededed;
+    background-color: #008AFF;
+    border: 2px solid #c49d02;
+    margin-bottom: 20px;
+
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #c49d02;
+    
+}
+th {
+    background-color:#ffcc02;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2E3238;
+}
+tr:hover {
+    background-color: #0062B8;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Tabela para Tablet */
+    table {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Tabela para Celular */
+    table {
+      font-size: 12px;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .outrosservicos {
+        padding: 2em 1em; /* reduz padding nas laterais */
+    }
+    
+    .outrosservicos > div {
+        flex-basis: calc(50% - 1em); /* divide em 2 colunas */
+        margin-bottom: 2em; /* adiciona espaço entre as colunas */
+    }
+}
+
+/* estilos para tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .outrosservicos {
+        padding: 2em; /* volta para padding original */
+    }
+    
+    .outrosservicos > div {
+        flex-basis: calc(33.33% - 1em); /* divide em 3 colunas */
+        margin-bottom: 2em; /* adiciona espaço entre as colunas */
+    }
+}

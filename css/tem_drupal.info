@@ -1,0 +1,12 @@
+stylesheets[all][] = abouts.css
+stylesheets[all][] = chooseme.css
+stylesheets[all][] = button.css
+stylesheets[all][] = header.css
+stylesheets[all][] = base.css
+stylesheets[all][] = poder.css
+stylesheets[all][] = servicos.css
+stylesheets[all][] = tabela.css
+stylesheets[all][] = apostilas.css
+stylesheets[all][] = contato.css
+stylesheets[all][] = rodape.css
+stylesheets[all][] = landing.css
